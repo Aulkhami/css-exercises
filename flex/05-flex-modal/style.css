@@ -20,6 +20,39 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.modal .icon-container {
+  flex: none;
+}
+
+.modal .info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal .header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal .header-container .header {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.modal .buttons-container {
+  flex-basis: 45px;
+
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
 }
 
 .icon {
